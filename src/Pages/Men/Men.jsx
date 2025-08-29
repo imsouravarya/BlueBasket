@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "./Men.css";
-import { products } from "../products";
+import { products } from "../Products";
 import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
 import {CartContext} from "../../Components/Context/CartContext";

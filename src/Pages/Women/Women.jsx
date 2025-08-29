@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { products } from "../products";
+import { products } from "../Products";
 import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
 import {CartContext} from "../../Components/Context/CartContext";
