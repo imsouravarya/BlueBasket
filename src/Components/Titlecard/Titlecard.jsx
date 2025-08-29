@@ -1,5 +1,5 @@
 import React from "react";
-import "./TitleCard.css";
+import "./Titlecard.css";
 import { useNavigate } from "react-router-dom";
 
 const TitleCard = ({ image, title, path }) => {
