@@ -6,6 +6,7 @@ import {CartContext} from "../../Components/Context/CartContext";
 import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { FaRegArrowAltCircleLeft } from "react-icons/fa";
+import womenImg from "/src/assets/womenbg2.jpg"
 const Women = () => {
   const {addToCart} = useContext(CartContext);
   const [addedId,setAddedId] = useState(null);
@@ -19,7 +20,7 @@ const Women = () => {
     <Navbar/>
     <div onClick={home} className="back-bt"><FaRegArrowAltCircleLeft /></div>
     <div className="banner">
-      <img className="hell" src="/src/assets/womenbg2.jpg" alt="" />
+      <img className="hell" src={womenImg} alt="Women" />
     </div>
     <div className="products-page">
       <h2>Women's Collection</h2>

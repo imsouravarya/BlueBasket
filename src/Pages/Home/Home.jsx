@@ -63,13 +63,13 @@ const Home = () => {
 
       {/* TitleCards Section */}
       <div className="title-cards-container">
-        <TitleCard image={menImg} title="Men" path="/men" />
-        <TitleCard image={womenImg} title="Women" path="/women" />
-        <TitleCard image={trendingImg} title="Trending" path="/trending" />
-        <TitleCard image={saleImg} title="Sale" path="/sale" />
+        <TitleCard image={menImg} title="Men"/>
+        <TitleCard image={womenImg} title="Women" />
+        <TitleCard image={trendingImg} title="Trending"/>
+        <TitleCard image={saleImg} title="Sale"/>
       </div>
 
-      <div className="home-trend">
+      <div className="home-trend"> 
         <h2>Special Festive Sale !!!</h2>
         <p>Discover the latest trends in fashion with upto 70% off this season</p>
         <img src={diwali} onClick={DiwaliSale} alt="diwali" />

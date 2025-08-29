@@ -7,6 +7,7 @@ import { useContext } from "react";
 import { FaRegArrowAltCircleLeft } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import "./Trending.css"
+import trendingImg from "/src/assets/trendingbg2.jpg"
 
 const Trending = () => {
   const {addToCart} = useContext(CartContext);
@@ -20,7 +21,7 @@ const Trending = () => {
     <Navbar/>
     <div onClick={home} className="back-btt"><FaRegArrowAltCircleLeft /></div>
     <div className="banner">
-      <img className="hell" src="/src/assets/trendingbg2.jpg" alt="" />
+      <img className="hell" src= {trendingImg} alt="trend" />
     </div>
     <div className="products-page">
       <h2>Trending Collection</h2>
