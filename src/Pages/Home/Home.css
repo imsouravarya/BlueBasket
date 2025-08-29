@@ -1,0 +1,110 @@
+/* ===== Heading Section ===== */
+.heading {
+  margin-top:  20px;
+}
+
+.heading h2 {
+  background-color: #2563eb; /* blue background */
+  color: black;              /* text color */
+  height: 60px;
+  display: flex;
+  justify-content: center;   /* horizontal center */
+  align-items: center;       /* vertical center */
+  margin: 0;                 /* remove default margin */
+  font-size: 30px;
+  border-radius: 50px;
+}
+
+
+/* ===== TitleCards Container ===== */
+.title-cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 30px;
+  flex-wrap: wrap; /* responsive for smaller screens */
+}
+
+/* ===== Home Trend Section ===== */
+.home-trend {
+  background-color: #f5f5f513;
+  margin: 50px 30px;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.home-trend h2 {
+  color: #2563eb;
+  margin-bottom: 10px;
+  font-family: 'Arial', sans-serif;
+  margin-top: 20px;
+}
+
+.home-trend p {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.home-trend img {
+  width: auto;
+  height: 300px;
+  object-fit: cover;
+  cursor: pointer;
+
+}
+
+.home-trend h2:last-child {
+  font-size: 24px;
+  color: white;
+}
+
+.home-container{
+background-color: black;
+}
+.products-gridd {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+.suggested h1{
+  text-align: center;
+  color: #2563eb;
+}
+.suggested p{
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+.upcoming h1{
+  text-align: center;
+  color: #2563eb;
+  margin-top: 45px;
+  margin-bottom: 40px;
+  font-size: 26px;
+}
+
+
+
+
+/* ===== Responsive Design ===== */
+@media (max-width: 1250px) {
+
+  .home-trend img {
+    height: 150px;
+    width: 100%;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+
+  .heading h2 {
+    font-size: 24px;
+    height: 40px;
+  }
+
+}

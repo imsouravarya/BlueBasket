@@ -1,0 +1,198 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 5%;
+  background-color: black;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.menu li{
+    color: #2563EB;
+    margin-top: 13px;
+}
+
+.menu li:hover {
+  color: whitesmoke;
+  transition: 0.3s;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.search-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 6px 30px 6px 10px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  outline: none;
+}
+
+.search-icon {
+  position: absolute;
+  right: 8px;
+  color: #777;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 20px;
+  cursor: pointer;
+  color: #2563EB;
+}
+
+.icon:hover {
+  color: whitesmoke;
+  transition: 0.3s;
+}
+
+img{
+    height: 50px;
+    width: 60px;
+    margin-right: -40px;
+}
+
+.logo{
+    color: #2563EB;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.logo-image{
+  margin-left: -40px;
+
+}
+
+.lines{
+    font-size: 23px;
+    color: #2563EB;
+    margin-top: 4px;
+    cursor: pointer;
+    margin-left: -60px;
+    display: none;
+}
+.menu1 {
+  display: none;
+  gap: 20px;
+}
+
+.menu1.open {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* Center vertically */
+  align-items: center; 
+  height: 210px;
+    position: absolute;
+    top: 90px;
+    background-color: rgba(0, 0, 0, 0.884);
+    color: #2563EB;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+    cursor: pointer;
+    
+}
+
+.cart-count{
+  color: #2563EB;
+  margin-left: -15px;
+  padding-bottom: 19px;
+
+}
+
+@media (max-width: 1250px) {
+
+  .menu li{
+    display: none;
+  }
+
+  .search-bar{
+    display: none;
+  }
+  .navbar-right{
+    margin: 0;
+  }
+  .navbar-left{
+    margin: 0;
+  }
+  .lines{
+    font-size: 20px;
+    color: #2563EB;
+    margin-top: 4px;
+    cursor: pointer;
+    margin-left: -14px;
+    display: flex;
+    
+}
+.logo-image{
+  margin-left:-30px;
+}}
+
+
+@media (max-width: 400px) {
+
+  .menu li{
+    display: none;
+  }
+
+  .search-bar{
+    display: none;
+  }
+  .navbar-right{
+    margin: 0;
+  }
+  .navbar-left{
+    margin: 0;
+  }
+  .lines{
+    font-size: 20px;
+    color: #00a2ff;
+    margin-top: 4px;
+    cursor: pointer;
+    margin-left: -14px;
+    height: 19px;
+    display: flex;
+    
+    
+}
+.logo-image{
+  margin-left:-40px;
+  height: 40px;
+}}
+.logo{
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 0px;
+}

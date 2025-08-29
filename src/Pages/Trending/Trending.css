@@ -1,0 +1,10 @@
+.back-btt{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 1px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+}

@@ -1,0 +1,53 @@
+.hero-section {
+  width: 100%;
+  max-height: 700px;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.heroimage {
+  height: 700px; /* same as recommended */
+  object-fit: cover;
+  width: 100%;
+}
+
+.carousel-caption h3 {
+  font-size: 36px;
+  font-weight: bold;
+  color:  #2563EB;
+  background-color: rgba(0, 0, 0, 0.79);
+
+}
+
+.carousel-caption p {
+  font-size: 18px;
+  color:  #2563EB;
+  background-color: rgba(0, 0, 0, 0.638);
+}
+
+@media (max-width: 1250px) {
+  .carousel-caption h3 {
+    font-size: 24px;
+  }
+  .carousel-caption p {
+    font-size: 14px;
+  }
+  .carousel img{
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+
+}
+
+@media (max-width: 570px) {
+  .carousel-caption h3{
+    font-size: 17px;
+    margin-bottom: 0px;
+  }
+  .carousel-caption p{
+    font-size: 9px;
+    margin-bottom: -10px;
+  }
+}

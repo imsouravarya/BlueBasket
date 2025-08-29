@@ -1,0 +1,85 @@
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  margin-right: 10px;
+}
+
+.iimage {
+  margin-right: 10px;
+}
+
+.iname {
+  flex: 1;
+
+}
+
+.iprice {
+  margin-right: 20px;
+  color: #2563eb;;
+  font-weight: bold;
+}
+
+.qty-controls {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.qty-controls button {
+  padding: 2px 8px;
+  cursor: pointer;
+  border: transparent;
+}
+
+.remove-btn {
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 10px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  margin-left: 10px;
+
+}
+
+.total {
+  margin-top: 20px;
+  text-align: right;
+  font-size: 1.3rem;
+  margin-right: 20px;
+}
+
+.back-btn{
+  font-size: 35px;
+  margin-left: 10px;
+  cursor: pointer;
+
+}
+
+h2{
+  margin-left: 20px;
+}
+
+.last button{
+  background:#2563eb; /* orange → pink */
+  color: white;  /* text color */
+  border: none;
+  border-radius: 30px;
+  padding: 12px 20px;
+  margin-left: 100px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+p{
+  margin-left: 20px;
+}

@@ -1,0 +1,15 @@
+.back-bt{
+    z-index: 1000;
+    background-color: transparent;
+    font-size: 40px;
+    position: absolute;
+    margin-left: 10px;
+    color: rgba(254, 254, 254, 0.579);
+    cursor: pointer;
+
+}
+
+
+.banner{
+    z-index: -1;
+}
