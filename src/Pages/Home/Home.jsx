@@ -63,10 +63,10 @@ const Home = () => {
 
       {/* TitleCards Section */}
       <div className="title-cards-container">
-        <TitleCard image={menImg} title="Men"/>
-        <TitleCard image={womenImg} title="Women" />
-        <TitleCard image={trendingImg} title="Trending"/>
-        <TitleCard image={saleImg} title="Sale"/>
+        <TitleCard image={menImg} title="Men" path="/men" />
+        <TitleCard image={womenImg} title="Women" path="/women" />
+        <TitleCard image={trendingImg} title="Trending" path="/trending" />
+        <TitleCard image={saleImg} title="Sale" path="/sale" />
       </div>
 
       <div className="home-trend"> 
